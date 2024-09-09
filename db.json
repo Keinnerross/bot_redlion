@@ -1,0 +1,815 @@
+[
+  {
+    "ref": "7e10a18c-c72e-4557-a5fe-d1f0772f7671",
+    "keyword": "f8e4a42ee2caae6a2180d347c69164c5",
+    "answer": "Hola",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "a7cd488d-5723-47e3-ae09-ee091c2d49ed",
+    "keyword": "c22e4066d61d81721def9b25d8a397e8",
+    "answer": "Hola",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_2da19970-7b36-4348-bf83-7a06042c6b07",
+    "keyword": "key_f0aef895-686d-4845-9e66-6483e4aed3f6",
+    "answer": "¡Hola!👋 Bienvenido/a Redlion Tattoo Studio. Soy Lion 🦁, su asistente virtual.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "2c7ca5b34a1b27f8897bd4d3e6428615",
+    "from": "56922465427"
+  },
+  {
+    "ref": "ans_38ee5fa0-f72f-4e47-97e8-4055da686413",
+    "keyword": "ans_2da19970-7b36-4348-bf83-7a06042c6b07",
+    "answer": "Para cotizar con cualquiera de nuestros artistas debes responder las siguientes preguntas👀\n \n1️⃣ ¡Si Comencemos!\n2️⃣ No gracias, Tengo una consulta diferente🤔",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 1500,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_16242bc7-17ae-432a-b068-37a33f254bfa",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_37847203-9ed2-4662-8410-d2ccdb92c9d2",
+          "keyword": "key_16242bc7-17ae-432a-b068-37a33f254bfa",
+          "answer": "¿Cómo te llamas?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "26abe95ec325b0a493f3e60f90740609"
+        },
+        {
+          "ref": "ans_d440fdf3-711a-41ab-b100-104c9209f5fa",
+          "keyword": "ans_37847203-9ed2-4662-8410-d2ccdb92c9d2",
+          "answer": "¿Cómo nos conociste?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "318a73dd8fa27c4c2fa4355245ee7c8a"
+        },
+        {
+          "ref": "ans_d7e47502-6533-4b25-9a85-085423d9ed06",
+          "keyword": "ans_d440fdf3-711a-41ab-b100-104c9209f5fa",
+          "answer": "Cuentame ¿qué te gustaría tatuarte?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "8c57a56e224f3f4468e9eb6d8fa3fe3e"
+        },
+        {
+          "ref": "ans_d17c9c50-8e37-4fb5-aa60-a89e3b4557f3",
+          "keyword": "ans_d7e47502-6533-4b25-9a85-085423d9ed06",
+          "answer": "¿Tienes alguna referencia? *Envía una foto o Imagen*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "952f2486353b604ddccb936582ad2a1b"
+        },
+        {
+          "ref": "ans_969a8505-e2a5-42a1-871c-c6681acf0b1a",
+          "keyword": "ans_d17c9c50-8e37-4fb5-aa60-a89e3b4557f3",
+          "answer": "¿En que área te gustaría tatuarlo?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e7c2b377d13b89f12069d3bccbd5a27a"
+        },
+        {
+          "ref": "ans_d9353389-5bcc-48d8-80ad-985ebad2a814",
+          "keyword": "ans_969a8505-e2a5-42a1-871c-c6681acf0b1a",
+          "answer": "¿Algún tamaño estimado en centímetros? (Esta bien si no tienes un tamaño especifico)",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3726182e3ee77caf19851a791fc7a751"
+        },
+        {
+          "ref": "ans_2dae9543-28ef-45e6-a7ed-eebe9b692757",
+          "keyword": "ans_d9353389-5bcc-48d8-80ad-985ebad2a814",
+          "answer": "Cuando te gustaría tatuarte?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "583e38c40b92f457377a7b82cfeec07b"
+        },
+        {
+          "ref": "ans_48bafc70-80d4-440a-854a-53508e9b7e22",
+          "keyword": "ans_2dae9543-28ef-45e6-a7ed-eebe9b692757",
+          "answer": "En algunas ocasiones es necesario realizar una evaluación presencial, en caso de necesitarla ¿tendrías disponibilidad para asistir?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "960817b23d15e57474550c9378646e49"
+        },
+        {
+          "ref": "key_0c97e717-8592-445a-8a6f-2464d79161ca",
+          "keyword": "2",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
+        },
+        {
+          "ref": "ans_8ac3de92-dfb4-4853-92d5-4b6607fb336c",
+          "keyword": "key_0c97e717-8592-445a-8a6f-2464d79161ca",
+          "answer": "Perfecto, deja tu mensaje y enseguida uno de nuestros artistas se comunicará contigo 😸",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6cf0c47c32da0b9a471bc0d12f357ada"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "5bdc4f31a9520ac053626c3b50e6ce38",
+    "from": "56922465427"
+  },
+  {
+    "ref": "64248d34-b8a2-44da-81c2-d9cdc03833fc",
+    "keyword": "5bdc4f31a9520ac053626c3b50e6ce38",
+    "answer": "2",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_8ac3de92-dfb4-4853-92d5-4b6607fb336c",
+    "keyword": "key_0c97e717-8592-445a-8a6f-2464d79161ca",
+    "answer": "Perfecto, deja tu mensaje y enseguida uno de nuestros artistas se comunicará contigo 😸",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "6cf0c47c32da0b9a471bc0d12f357ada",
+    "from": "56922465427"
+  },
+  {
+    "ref": "e74e4e83-0354-4969-b130-3119c2d16909",
+    "keyword": "6cf0c47c32da0b9a471bc0d12f357ada",
+    "answer": "Hola?",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "35859adc04fcec48687ee356bc8859c1"
+  },
+  {
+    "ref": "ans_2da19970-7b36-4348-bf83-7a06042c6b07",
+    "keyword": "key_f0aef895-686d-4845-9e66-6483e4aed3f6",
+    "answer": "¡Hola!👋 Bienvenido/a Redlion Tattoo Studio. Soy Lion 🦁, su asistente virtual.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "2c7ca5b34a1b27f8897bd4d3e6428615",
+    "from": "56922465427"
+  },
+  {
+    "ref": "ans_38ee5fa0-f72f-4e47-97e8-4055da686413",
+    "keyword": "ans_2da19970-7b36-4348-bf83-7a06042c6b07",
+    "answer": "Para cotizar con cualquiera de nuestros artistas debes responder las siguientes preguntas👀\n \n1️⃣ ¡Si Comencemos!\n2️⃣ No gracias, Tengo una consulta diferente🤔",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 1500,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_16242bc7-17ae-432a-b068-37a33f254bfa",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_37847203-9ed2-4662-8410-d2ccdb92c9d2",
+          "keyword": "key_16242bc7-17ae-432a-b068-37a33f254bfa",
+          "answer": "¿Cómo te llamas?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "26abe95ec325b0a493f3e60f90740609"
+        },
+        {
+          "ref": "ans_d440fdf3-711a-41ab-b100-104c9209f5fa",
+          "keyword": "ans_37847203-9ed2-4662-8410-d2ccdb92c9d2",
+          "answer": "¿Cómo nos conociste?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "318a73dd8fa27c4c2fa4355245ee7c8a"
+        },
+        {
+          "ref": "ans_d7e47502-6533-4b25-9a85-085423d9ed06",
+          "keyword": "ans_d440fdf3-711a-41ab-b100-104c9209f5fa",
+          "answer": "Cuentame ¿qué te gustaría tatuarte?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "8c57a56e224f3f4468e9eb6d8fa3fe3e"
+        },
+        {
+          "ref": "ans_d17c9c50-8e37-4fb5-aa60-a89e3b4557f3",
+          "keyword": "ans_d7e47502-6533-4b25-9a85-085423d9ed06",
+          "answer": "¿Tienes alguna referencia? *Envía una foto o Imagen*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "952f2486353b604ddccb936582ad2a1b"
+        },
+        {
+          "ref": "ans_969a8505-e2a5-42a1-871c-c6681acf0b1a",
+          "keyword": "ans_d17c9c50-8e37-4fb5-aa60-a89e3b4557f3",
+          "answer": "¿En que área te gustaría tatuarlo?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e7c2b377d13b89f12069d3bccbd5a27a"
+        },
+        {
+          "ref": "ans_d9353389-5bcc-48d8-80ad-985ebad2a814",
+          "keyword": "ans_969a8505-e2a5-42a1-871c-c6681acf0b1a",
+          "answer": "¿Algún tamaño estimado en centímetros? (Esta bien si no tienes un tamaño especifico)",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3726182e3ee77caf19851a791fc7a751"
+        },
+        {
+          "ref": "ans_2dae9543-28ef-45e6-a7ed-eebe9b692757",
+          "keyword": "ans_d9353389-5bcc-48d8-80ad-985ebad2a814",
+          "answer": "Cuando te gustaría tatuarte?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "583e38c40b92f457377a7b82cfeec07b"
+        },
+        {
+          "ref": "ans_48bafc70-80d4-440a-854a-53508e9b7e22",
+          "keyword": "ans_2dae9543-28ef-45e6-a7ed-eebe9b692757",
+          "answer": "En algunas ocasiones es necesario realizar una evaluación presencial, en caso de necesitarla ¿tendrías disponibilidad para asistir?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "960817b23d15e57474550c9378646e49"
+        },
+        {
+          "ref": "key_0c97e717-8592-445a-8a6f-2464d79161ca",
+          "keyword": "2",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
+        },
+        {
+          "ref": "ans_8ac3de92-dfb4-4853-92d5-4b6607fb336c",
+          "keyword": "key_0c97e717-8592-445a-8a6f-2464d79161ca",
+          "answer": "Perfecto, deja tu mensaje y enseguida uno de nuestros artistas se comunicará contigo 😸",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6cf0c47c32da0b9a471bc0d12f357ada"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "5bdc4f31a9520ac053626c3b50e6ce38",
+    "from": "56922465427"
+  },
+  {
+    "ref": "8a85fbb3-f30b-4460-9655-f8c84b29bea7",
+    "keyword": "5bdc4f31a9520ac053626c3b50e6ce38",
+    "answer": "1",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_37847203-9ed2-4662-8410-d2ccdb92c9d2",
+    "keyword": "key_16242bc7-17ae-432a-b068-37a33f254bfa",
+    "answer": "¿Cómo te llamas?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "26abe95ec325b0a493f3e60f90740609",
+    "from": "56922465427"
+  },
+  {
+    "ref": "ea09b1c9-9616-48fc-9a83-b9527753c153",
+    "keyword": "26abe95ec325b0a493f3e60f90740609",
+    "answer": "Ross",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "56ad57ddd61e10992cc782d3bc52f1d1"
+  },
+  {
+    "ref": "cfc10f7f-3fe7-41d0-b229-3fb79ae88c5d",
+    "keyword": null,
+    "answer": "Un gusto conocerte Ross!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "56922465427",
+    "refSerialize": "c9eadfc448adeceab336fcdd51efe295"
+  },
+  {
+    "ref": "ans_d440fdf3-711a-41ab-b100-104c9209f5fa",
+    "keyword": "ans_37847203-9ed2-4662-8410-d2ccdb92c9d2",
+    "answer": "¿Cómo nos conociste?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "318a73dd8fa27c4c2fa4355245ee7c8a",
+    "from": "56922465427"
+  },
+  {
+    "ref": "82eac463-46a5-4576-81d1-6e9ca44ee10a",
+    "keyword": "318a73dd8fa27c4c2fa4355245ee7c8a",
+    "answer": "Instagram",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "ddc79d6292b39dcd58fd61e097cb9cec"
+  },
+  {
+    "ref": "97d702de-83c2-4f9f-868f-37a9848ff7f5",
+    "keyword": null,
+    "answer": "Genial!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "56922465427",
+    "refSerialize": "5216c0658781c4aeb83aca9d2dd4cd3a"
+  },
+  {
+    "ref": "ans_d7e47502-6533-4b25-9a85-085423d9ed06",
+    "keyword": "ans_d440fdf3-711a-41ab-b100-104c9209f5fa",
+    "answer": "Cuentame ¿qué te gustaría tatuarte?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8c57a56e224f3f4468e9eb6d8fa3fe3e",
+    "from": "56922465427"
+  },
+  {
+    "ref": "35a96f0f-7a01-4674-97ca-21b049dfce88",
+    "keyword": "8c57a56e224f3f4468e9eb6d8fa3fe3e",
+    "answer": "Ena kaka",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "7e6cbd9b335f7662b24b48b16d01d337"
+  },
+  {
+    "ref": "26c6f10f-8568-4c4c-b975-451f71e44359",
+    "keyword": null,
+    "answer": "Suena bien!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "56922465427",
+    "refSerialize": "f093819ac8edd78dc8de4702bde2c513"
+  },
+  {
+    "ref": "ans_d17c9c50-8e37-4fb5-aa60-a89e3b4557f3",
+    "keyword": "ans_d7e47502-6533-4b25-9a85-085423d9ed06",
+    "answer": "¿Tienes alguna referencia? *Envía una foto o Imagen*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "952f2486353b604ddccb936582ad2a1b",
+    "from": "56922465427"
+  },
+  {
+    "ref": "901ae5de-720d-4673-b7ef-f98440a43671",
+    "keyword": "952f2486353b604ddccb936582ad2a1b",
+    "answer": "_event_media__7475c82f-9950-4b0a-b5d6-67d49f2685ac",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "27a852f3265afb588d3aefae9734ab16"
+  },
+  {
+    "ref": "8ac87245-9834-44bb-92cd-c8a02b76cd4c",
+    "keyword": null,
+    "answer": "Súper!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "56922465427",
+    "refSerialize": "657833eb0f99ddb27e72bc632a0e20d6"
+  },
+  {
+    "ref": "ans_969a8505-e2a5-42a1-871c-c6681acf0b1a",
+    "keyword": "ans_d17c9c50-8e37-4fb5-aa60-a89e3b4557f3",
+    "answer": "¿En que área te gustaría tatuarlo?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e7c2b377d13b89f12069d3bccbd5a27a",
+    "from": "56922465427"
+  },
+  {
+    "ref": "826212dc-72d8-4a7c-af51-1e8d1b14a71f",
+    "keyword": "e7c2b377d13b89f12069d3bccbd5a27a",
+    "answer": "Poto",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "1a072fefb88ced2ef04df33062ba6c47"
+  },
+  {
+    "ref": "ans_d9353389-5bcc-48d8-80ad-985ebad2a814",
+    "keyword": "ans_969a8505-e2a5-42a1-871c-c6681acf0b1a",
+    "answer": "¿Algún tamaño estimado en centímetros? (Esta bien si no tienes un tamaño especifico)",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3726182e3ee77caf19851a791fc7a751",
+    "from": "56922465427"
+  },
+  {
+    "ref": "f6a0ddad-84ac-4007-b6d3-e185686a55d2",
+    "keyword": "3726182e3ee77caf19851a791fc7a751",
+    "answer": "1000 metros",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "243ee26095e5da80eaa3d15a60c451c2"
+  },
+  {
+    "ref": "ans_2dae9543-28ef-45e6-a7ed-eebe9b692757",
+    "keyword": "ans_d9353389-5bcc-48d8-80ad-985ebad2a814",
+    "answer": "Cuando te gustaría tatuarte?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "583e38c40b92f457377a7b82cfeec07b",
+    "from": "56922465427"
+  },
+  {
+    "ref": "b6f33127-f9f2-4589-aa55-4024af0059a3",
+    "keyword": "583e38c40b92f457377a7b82cfeec07b",
+    "answer": "Mañana",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "90908eaea17e281d6e9f7f69d13bea46"
+  },
+  {
+    "ref": "ans_48bafc70-80d4-440a-854a-53508e9b7e22",
+    "keyword": "ans_2dae9543-28ef-45e6-a7ed-eebe9b692757",
+    "answer": "En algunas ocasiones es necesario realizar una evaluación presencial, en caso de necesitarla ¿tendrías disponibilidad para asistir?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "960817b23d15e57474550c9378646e49",
+    "from": "56922465427"
+  },
+  {
+    "ref": "e42e26ca-1775-4d54-9e05-b863dcfdec83",
+    "keyword": "960817b23d15e57474550c9378646e49",
+    "answer": "Si",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "611b2bffc5c8bf7a02f45d2060b32e20"
+  },
+  {
+    "ref": "3ff34517-bf67-4bd9-bc06-cdd920ce3d0d",
+    "keyword": null,
+    "answer": "Terminamos ✅ ¡Gracias Ross por responder las preguntas, en breve uno de nuestros artistas estará comunicandose contigo",
+    "options": {
+      "media": "https://i.pinimg.com/564x/0b/21/0f/0b210f89a127b83ffa68ca830bd5f1c3.jpg",
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "56922465427",
+    "refSerialize": "e7ae83b8b53743c5a006c58932935939"
+  },
+  {
+    "ref": "ced0a4e9-cf94-4649-8dbb-3d0c2a2ac5f9",
+    "keyword": "611b2bffc5c8bf7a02f45d2060b32e20",
+    "answer": "(;",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "a6743be4cd3010f15ad49b0df814ebae"
+  },
+  {
+    "ref": "61e9f894-cf71-46bd-9caf-cd5d1342cc01",
+    "keyword": "a6743be4cd3010f15ad49b0df814ebae",
+    "answer": "Gracias!",
+    "options": {},
+    "from": "56922465427",
+    "refSerialize": "dca02f68f7035c1e76c1806d4fdff3bb"
+  },
+  {
+    "ref": "ans_027bfa94-7029-4966-a4ae-cff1cba45c48",
+    "keyword": "key_b33a9691-cde7-4181-9e62-88a0dce6d45b",
+    "answer": "Estoy aquí para ayudarte 🦁",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "73e0f57971d14f312b85fb72670e1afa",
+    "from": "56922465427"
+  }
+]
